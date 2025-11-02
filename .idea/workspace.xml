@@ -4,7 +4,52 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f79a024-b7a4-4463-a4d7-567fb9b23da4" name="Changes" comment="" />
+    <list default="true" id="8f79a024-b7a4-4463-a4d7-567fb9b23da4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/onlinefoodorderingsystem/onlinefoodorderingsystem/DataInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/onlinefoodorderingsystem/onlinefoodorderingsystem/OnlinefoodorderingsystemApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/onlinefoodorderingsystem/onlinefoodorderingsystem/controller/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/onlinefoodorderingsystem/onlinefoodorderingsystem/controller/DeliveryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/onlinefoodorderingsystem/onlinefoodorderingsystem/controller/MenuItemController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/onlinefoodorderingsystem/onlinefoodorderingsystem/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/onlinefoodorderingsystem/onlinefoodorderingsystem/controller/RestaurantController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/onlinefoodorderingsystem/onlinefoodorderingsystem/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/onlinefoodorderingsystem/onlinefoodorderingsystem/dto/DeliveryDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/onlinefoodorderingsystem/onlinefoodorderingsystem/dto/LoginRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/onlinefoodorderingsystem/onlinefoodorderingsystem/dto/LoginResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/onlinefoodorderingsystem/onlinefoodorderingsystem/dto/MenuItemDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/onlinefoodorderingsystem/onlinefoodorderingsystem/dto/OrderDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/onlinefoodorderingsystem/onlinefoodorderingsystem/dto/OrderItemDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/onlinefoodorderingsystem/onlinefoodorderingsystem/dto/RestaurantDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/onlinefoodorderingsystem/onlinefoodorderingsystem/dto/UserDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/onlinefoodorderingsystem/onlinefoodorderingsystem/entity/Delivery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/onlinefoodorderingsystem/onlinefoodorderingsystem/entity/MenuItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/onlinefoodorderingsystem/onlinefoodorderingsystem/entity/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/onlinefoodorderingsystem/onlinefoodorderingsystem/entity/OrderItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/onlinefoodorderingsystem/onlinefoodorderingsystem/entity/Restaurant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/onlinefoodorderingsystem/onlinefoodorderingsystem/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/onlinefoodorderingsystem/onlinefoodorderingsystem/jwt/JwtAuthenticationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/onlinefoodorderingsystem/onlinefoodorderingsystem/jwt/JwtTokenProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/onlinefoodorderingsystem/onlinefoodorderingsystem/repository/DeliveryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/onlinefoodorderingsystem/onlinefoodorderingsystem/repository/MenuItemRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/onlinefoodorderingsystem/onlinefoodorderingsystem/repository/OrderItemRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/onlinefoodorderingsystem/onlinefoodorderingsystem/repository/OrderRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/onlinefoodorderingsystem/onlinefoodorderingsystem/repository/RestaurantRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/onlinefoodorderingsystem/onlinefoodorderingsystem/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/onlinefoodorderingsystem/onlinefoodorderingsystem/security/CustomUserDetailsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/onlinefoodorderingsystem/onlinefoodorderingsystem/security/OpenApiConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/onlinefoodorderingsystem/onlinefoodorderingsystem/security/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/onlinefoodorderingsystem/onlinefoodorderingsystem/service/DeliveryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/onlinefoodorderingsystem/onlinefoodorderingsystem/service/MenuItemService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/onlinefoodorderingsystem/onlinefoodorderingsystem/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/onlinefoodorderingsystem/onlinefoodorderingsystem/service/RestaurantService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/onlinefoodorderingsystem/onlinefoodorderingsystem/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,18 +80,18 @@
     </excluded-from-favorite>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "nitin887"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;nitin887&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/nitin887/onlinefoodorderingsystem.git",
-    "accountId": "431ef60d-f455-46f0-8260-1356a62e2fde"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/nitin887/onlinefoodorderingsystem.git&quot;,
+    &quot;accountId&quot;: &quot;431ef60d-f455-46f0-8260-1356a62e2fde&quot;
   }
-}]]></component>
+}</component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -58,6 +103,9 @@
   &quot;associatedIndex&quot;: 8
 }</component>
   <component name="ProjectId" id="33NV0UJYOifkkFwGdYkufwRYiCn" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -72,9 +120,13 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/Users/nitin/OneDrive/Desktop/onlinefoodorderingsystem",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "MavenSettings"
   }
 }]]></component>
